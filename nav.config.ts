@@ -2,7 +2,7 @@ import { IConfig } from './src/types'
 
 const c: IConfig = {
   // [Mondatory], Please replace following Github url with your own Github address which you forked in. 
-  gitRepoUrl: 'https://github.com/51sec/nav',
+  gitRepoUrl: 'https://github.com/lkb123/nav',
 
   // Deployment branch name
   branch: 'main',
@@ -14,16 +14,16 @@ const c: IConfig = {
   showGithub: true,
 
   // what is your website address. It is good for your SEO
-  homeUrl: 'https://nav.51sec.org',
+  homeUrl: 'https://pin.imdz.net',
 
   // Web Site Tiltle
-  title: '51Sec Navigation - Featured and useful navigation websites',
+  title: 'Imdz Pin danh bạ website lưu trữ liên kết những trang web thú vị',
 
   // Web Site description
-  description: '51Sec Navigation - Featured and useful navigation websites - English',
+  description: 'Imdz Pin danh bạ website là nơi lưu trữ hàng nghìn liên kết thú vị được imdz đánh giá và xác nhận uy tín. Chứa hàng nghìn liên kết giúp ích cho người sử dụng. Giúp bạn truy cập nhanh và dễ dàng hơn.',
 
   // Web Site Keyword
-  keywords: 'Navigation, front-end resources, community sites, designers, practical tools, learning resources, operations, network, security',
+  keywords: 'danh bạ website, danh bạ web, những trang web, danh sách website, bookmarks, bookmart, những trang web, list website, học tập, tools thiết kế, lập trình, đồ hoạ',
 
   // Default Theme: Light | Sim | Side | App | Shortcut
   theme: 'Side',
@@ -31,22 +31,9 @@ const c: IConfig = {
   // The content at the bottom of the website, copyright information, record number, can be HTML
   footerContent: `
     <div style="font-weight: bold;">Total collected \${total} websites </div>
-    <div>Copyright ©2018-2021 nav3.cn.Translated by <a href="https://www.51sec.org" target="_blank">51Sec</a>. All Rights Reserved</div>
+    <div>Copyright ©2021 imdz.net . All Rights Reserved</div>
   `,
-
-  // Alibaba icon https://www.iconfont.cn/
-  // IT will be used to show side theme's topic one level and second level menu icons Side 主题一级、二级菜单图标展示
-  iconfontUrl: '//at.alicdn.com/t/font_2522843_wl70o31sy6.js',
-
-  // Baidu statistics
-  // https://tongji.baidu.com/web/welcome/login
-  //baiduStatisticsUrl: 'https://hm.baidu.com/hm.js?4582be7af7e7c95ef75351e07c6c32ba',
-
-  // CNZZ statisitics
-  // https://www.cnzz.com/o_index.php
-  //cnzzStatisticsUrl: '',
-
-  // Sim Theme Configuration
+// Sim Theme Configuration
   simThemeConfig: {
     // Post Image
     posterImageUrls: [
